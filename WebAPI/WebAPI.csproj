@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DPAbstractions\DPAbstractions.csproj" />
+    <ProjectReference Include="..\Expressions\Expressions.csproj" />
+    <ProjectReference Include="..\SharedAbstractions\SharedAbstractions.csproj" />
+  </ItemGroup>
+
+</Project>
